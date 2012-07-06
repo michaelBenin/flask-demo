@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+
+{% block body %}
+  <a href="{{ url_for('blog', slug='blogpost') }}">{{ url_for('blog', slug='blogpost') }}</a>
+  <a href="{{ url_for('api', method='foo') }}">{{ url_for('api', method='foo') }}</a>
+{% endblock %}
